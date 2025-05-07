@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "roboto-mono-bold";
+    src: url("./assets/fonts/RobotoSerif-Bold.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "roboto-mono-semibold";
+    src: url("./assets/fonts/RobotoSerif-SemiBold.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "roboto-mono-medium";
+    src: url("./assets/fonts/RobotoSerif-Medium.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "roboto-mono-regular";
+    src: url("./assets/fonts/RobotoSerif-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "roboto-mono-light";
+    src: url("./assets/fonts/RobotoSerif-Light.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root {
+    /*Variables Global*/
+    background-color: #15191B;
+    color: #fff;
+    /* Colors */
+    --color-primary: #1E2224;
+    --color-secondary: #40494E;
+    --color-gray: #B1B1B1;
+    --color-white: #fff;
+}
+
+.TextColorWhite {
+    font-family: "roboto-mono-regular", monospace;
+    color: var(--color-white);
+}
+.Container{
+    padding: 2rem 1.5rem;
+}
+.Image{
+    width: 100%;
+}

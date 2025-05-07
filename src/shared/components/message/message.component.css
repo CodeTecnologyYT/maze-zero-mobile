@@ -1,0 +1,8 @@
+.MessageContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    background: var(--color-primary);
+    padding: 15px;
+    border-radius: 10px;
+}

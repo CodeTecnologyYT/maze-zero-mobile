@@ -1,0 +1,27 @@
+.ThemeBasicLayout{
+    color: var(--color-white);
+    .HeaderContainer{
+        background: var(--color-primary);
+        .HomeBattlePanel{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-top: 1.5rem;
+            .HomeBattlePanelText {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                .HomeLogoContainer {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+            }
+            .HomeActionButtonContainer{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    }
+}

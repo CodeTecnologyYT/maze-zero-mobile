@@ -1,0 +1,50 @@
+.TextWeightBold{
+    font-family: "roboto-mono-bold", monospace;
+}
+.TextWeightSemiBold{
+    font-family: "roboto-mono-semibold", monospace;
+}
+.TextWeightMedium{
+    font-family: "roboto-mono-medium", monospace;
+}
+.TextWeightRegular{
+    font-family: "roboto-mono-regular", monospace;
+}
+.TextWeightLight{
+    font-family: "roboto-mono-light", monospace;
+}
+/* Text Size*/
+.TextSizeXLarge{
+    font-size: 35px;
+}
+.TextSizeLarge{
+    font-size: 18px;
+}
+.TextSizeMedium{
+    font-size: 14px;
+}
+.TextSizeSmall{
+    font-size: 12px;
+}
+.TextHeightSeparate{
+    line-height: 1.2;
+}
+
+/* Text Type*/
+.TextSubtitle{
+    color: var(--color-gray);
+}
+.TextTitle{
+    color: var(--color-white);
+}
+
+/* Text Align. */
+.TextAlignCenter{
+    text-align: center;
+}
+.TextAlignRight{
+    text-align: right;
+}
+.TextAlignLeft{
+    text-align: left;
+}

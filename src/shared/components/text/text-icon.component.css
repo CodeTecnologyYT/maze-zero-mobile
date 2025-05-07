@@ -1,0 +1,10 @@
+.TextIconContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    .ContainerIcon{
+        width: 20px;
+        height: 20px;
+    }
+}
